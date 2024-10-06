@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:#369950; 
+    
+    width: 100%;
+    top: 0;
+    padding: 30px 10px; 
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #008000; 
+}
+
+.parallax {
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20231103/pngtree-nighttime-botanical-backdrop-a-vibrant-wallpaper-featuring-dark-textured-fresh-foliage-image_13784013.png");
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.parallax .content {
+    padding: 20px;
+    background-color: rgba(144, 238, 144, 0.9); 
+color:black;
+    border-radius: 10px;
+}
+
+
+.donate-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#donate-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FFA500; /* Orange color */
+    color: white;
+    text-decoration: none; /* Removes underline */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; /* Ensures no border is applied */
+}
+
+#donate-btn:hover {
+    background-color: #FF8C00; 
+}
+
+
+section {
+    padding: 60px 20px;
+  background-color:#369950; 
+color:white;
+    text-align: center;
+}
+
+#services, #contact {
+    padding: 60px 20px;
+    background-color:#369950; 
+color:white;
+    text-align: center;
+}
+
+.services-content, .contact-content {
+    width:500 px;
+height:500px;
+    justify-content: center;
+color:white;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
