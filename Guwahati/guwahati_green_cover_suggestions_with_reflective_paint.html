@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f31c08573d496cd276aec23247a46296 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_f31c08573d496cd276aec23247a46296" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f31c08573d496cd276aec23247a46296 = L.map(
+                "map_f31c08573d496cd276aec23247a46296",
+                {
+                    center: [26.1445, 91.7362],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_edd741d93fe5da5f0e4d97757dc6bf7f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_edd741d93fe5da5f0e4d97757dc6bf7f.addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var marker_a02cc78eead3aa4e4fd92f633af16f2d = L.marker(
+                [26.1823, 91.7458],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_8a344f64724b2a2eec133fc685441847 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a02cc78eead3aa4e4fd92f633af16f2d.setIcon(icon_8a344f64724b2a2eec133fc685441847);
+        
+    
+        var popup_01f5f47d58bcd4c2db7a94415b03bc0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baac1f296ef162cb6ec4397bd2422b13 = $(`<div id="html_baac1f296ef162cb6ec4397bd2422b13" style="width: 100.0%; height: 100.0%;">Place: Pan Bazaar Max Temperature: 35.5°C Suggested Actions: 1. Increase tree cover in market areas. 2. Implement cool roofs on commercial buildings. 3. Paint roofs and walls with white or reflective paint. 4. Create shaded pedestrian zones.</div>`)[0];
+                popup_01f5f47d58bcd4c2db7a94415b03bc0c.setContent(html_baac1f296ef162cb6ec4397bd2422b13);
+            
+        
+
+        marker_a02cc78eead3aa4e4fd92f633af16f2d.bindPopup(popup_01f5f47d58bcd4c2db7a94415b03bc0c)
+        ;
+
+        
+    
+    
+            var marker_3dcc003c77ccbc9465e1b95cb0d02241 = L.marker(
+                [26.1832, 91.7412],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_399827667a5b44759ab3690716ab87d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3dcc003c77ccbc9465e1b95cb0d02241.setIcon(icon_399827667a5b44759ab3690716ab87d1);
+        
+    
+        var popup_4fc5f249faa3b9486922b45569300071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df98c238a8435e3daa513d08c4128009 = $(`<div id="html_df98c238a8435e3daa513d08c4128009" style="width: 100.0%; height: 100.0%;">Place: Fancy Bazaar Max Temperature: 35.5°C Suggested Actions: 1. Introduce vertical gardens on buildings. 2. Paint roofs and walls with reflective surfaces. 3. Increase the number of parks and green spaces. 4. Encourage rooftop gardens.</div>`)[0];
+                popup_4fc5f249faa3b9486922b45569300071.setContent(html_df98c238a8435e3daa513d08c4128009);
+            
+        
+
+        marker_3dcc003c77ccbc9465e1b95cb0d02241.bindPopup(popup_4fc5f249faa3b9486922b45569300071)
+        ;
+
+        
+    
+    
+            var marker_152b1819af8fedf4dfedf303dc1c5c7a = L.marker(
+                [26.181, 91.7516],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_27eaffde9f1b6f10cf4cc79513d869ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_152b1819af8fedf4dfedf303dc1c5c7a.setIcon(icon_27eaffde9f1b6f10cf4cc79513d869ed);
+        
+    
+        var popup_69009ac64ae690030bfd654bb6c24d2f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59e6378a626f7b2139e05f6c5a7daaf3 = $(`<div id="html_59e6378a626f7b2139e05f6c5a7daaf3" style="width: 100.0%; height: 100.0%;">Place: Paltan Bazaar Max Temperature: 36.0°C Suggested Actions: 1. Expand public green spaces and tree cover. 2. Implement green roofs on market buildings. 3. Install reflective materials on roads and buildings.</div>`)[0];
+                popup_69009ac64ae690030bfd654bb6c24d2f.setContent(html_59e6378a626f7b2139e05f6c5a7daaf3);
+            
+        
+
+        marker_152b1819af8fedf4dfedf303dc1c5c7a.bindPopup(popup_69009ac64ae690030bfd654bb6c24d2f)
+        ;
+
+        
+    
+    
+            var marker_fa1b06d05ddebff81e83362fd9e42589 = L.marker(
+                [26.1436, 91.7898],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_0265e0c6b6905fdddd213a0ae7775d23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fa1b06d05ddebff81e83362fd9e42589.setIcon(icon_0265e0c6b6905fdddd213a0ae7775d23);
+        
+    
+        var popup_e4b0f18e501311e946b070047f3c1715 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e62ee856029f62243c868df742515fd7 = $(`<div id="html_e62ee856029f62243c868df742515fd7" style="width: 100.0%; height: 100.0%;">Place: Dispur Max Temperature: 35.5°C Suggested Actions: 1. Plant trees along administrative buildings. 2. Paint government building roofs with reflective paint. 3. Develop green corridors. 4. Use cool paving materials in public spaces.</div>`)[0];
+                popup_e4b0f18e501311e946b070047f3c1715.setContent(html_e62ee856029f62243c868df742515fd7);
+            
+        
+
+        marker_fa1b06d05ddebff81e83362fd9e42589.bindPopup(popup_e4b0f18e501311e946b070047f3c1715)
+        ;
+
+        
+    
+    
+            var marker_ecd6b3f8bdee24a19176c8e580c4a660 = L.marker(
+                [26.1761, 91.7523],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_67db1ec22a7bf1fea550455d623d6f2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ecd6b3f8bdee24a19176c8e580c4a660.setIcon(icon_67db1ec22a7bf1fea550455d623d6f2c);
+        
+    
+        var popup_e1f8356923cac0ab1785b72de8a658d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa4bc265e6d200f92e0fca8498e7335e = $(`<div id="html_aa4bc265e6d200f92e0fca8498e7335e" style="width: 100.0%; height: 100.0%;">Place: Ulubari Max Temperature: 35.5°C Suggested Actions: 1. Create green walls and vertical gardens. 2. Promote community gardens in residential areas. 3. Paint residential roofs with white paint. 4. Install water features for cooling.</div>`)[0];
+                popup_e1f8356923cac0ab1785b72de8a658d6.setContent(html_aa4bc265e6d200f92e0fca8498e7335e);
+            
+        
+
+        marker_ecd6b3f8bdee24a19176c8e580c4a660.bindPopup(popup_e1f8356923cac0ab1785b72de8a658d6)
+        ;
+
+        
+    
+    
+            var marker_6660216facc8de849d6f09abb43cbb0d = L.marker(
+                [26.1145, 91.8077],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_49a428fbe710ea0fc98503e3c14286ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6660216facc8de849d6f09abb43cbb0d.setIcon(icon_49a428fbe710ea0fc98503e3c14286ed);
+        
+    
+        var popup_8a9836165df5b71c1aedcf43f52c2aee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ce8fb76154a9175a25d63a7905e0679 = $(`<div id="html_5ce8fb76154a9175a25d63a7905e0679" style="width: 100.0%; height: 100.0%;">Place: Beltola Max Temperature: 36.5°C Suggested Actions: 1. Enhance green cover in residential areas. 2. Implement green roofs and reflective surfaces on houses. 3. Promote planting of native trees.</div>`)[0];
+                popup_8a9836165df5b71c1aedcf43f52c2aee.setContent(html_5ce8fb76154a9175a25d63a7905e0679);
+            
+        
+
+        marker_6660216facc8de849d6f09abb43cbb0d.bindPopup(popup_8a9836165df5b71c1aedcf43f52c2aee)
+        ;
+
+        
+    
+    
+            var marker_f37bd3ef63fe2902519473fe07962e02 = L.marker(
+                [26.1384, 91.7907],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_8b754146818cc196f0e46f540e4b7ac9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f37bd3ef63fe2902519473fe07962e02.setIcon(icon_8b754146818cc196f0e46f540e4b7ac9);
+        
+    
+        var popup_491091dd550d421068af7a5b8bce9183 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c971255e101a391a12900644ef5c5dd3 = $(`<div id="html_c971255e101a391a12900644ef5c5dd3" style="width: 100.0%; height: 100.0%;">Place: Ganeshguri Max Temperature: 37.0°C Suggested Actions: 1. Increase shaded areas in commercial hubs. 2. Use reflective materials on roads and buildings. 3. Develop small parks and green buffers.</div>`)[0];
+                popup_491091dd550d421068af7a5b8bce9183.setContent(html_c971255e101a391a12900644ef5c5dd3);
+            
+        
+
+        marker_f37bd3ef63fe2902519473fe07962e02.bindPopup(popup_491091dd550d421068af7a5b8bce9183)
+        ;
+
+        
+    
+    
+            var marker_00ece7c2698d9a3315bb204cb2cb93f7 = L.marker(
+                [26.1872, 91.7743],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_c0b42d76654c0b80b82f58eac5d7d794 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_00ece7c2698d9a3315bb204cb2cb93f7.setIcon(icon_c0b42d76654c0b80b82f58eac5d7d794);
+        
+    
+        var popup_861e2e650b5173cd91f511ff704626b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc61b45445a8920320b7101024731adf = $(`<div id="html_fc61b45445a8920320b7101024731adf" style="width: 100.0%; height: 100.0%;">Place: Chandmari Max Temperature: 38.5°C Suggested Actions: 1. Introduce urban forestry in available spaces. 2. Implement green roofs and reflective coatings on residential buildings. 3. Increase vegetation along roads.</div>`)[0];
+                popup_861e2e650b5173cd91f511ff704626b2.setContent(html_fc61b45445a8920320b7101024731adf);
+            
+        
+
+        marker_00ece7c2698d9a3315bb204cb2cb93f7.bindPopup(popup_861e2e650b5173cd91f511ff704626b2)
+        ;
+
+        
+    
+    
+            var marker_99a9bf14c18aee7502be41e1fd99d811 = L.marker(
+                [26.1511, 91.6657],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_ac3712fdf891993c290a0f23b274bd45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_99a9bf14c18aee7502be41e1fd99d811.setIcon(icon_ac3712fdf891993c290a0f23b274bd45);
+        
+    
+        var popup_405454f71c3b797cec89aed54c2dcdb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_478bc3453a824d6c2b2e3c792bce0dac = $(`<div id="html_478bc3453a824d6c2b2e3c792bce0dac" style="width: 100.0%; height: 100.0%;">Place: Guwahati University Max Temperature: 37.0°C Suggested Actions: 1. Expand campus green spaces. 2. Develop botanical gardens. 3. Paint university building roofs with white or reflective paint. 4. Use permeable paving materials to reduce heat.</div>`)[0];
+                popup_405454f71c3b797cec89aed54c2dcdb3.setContent(html_478bc3453a824d6c2b2e3c792bce0dac);
+            
+        
+
+        marker_99a9bf14c18aee7502be41e1fd99d811.bindPopup(popup_405454f71c3b797cec89aed54c2dcdb3)
+        ;
+
+        
+    
+    
+            var marker_1bb066ac57de9c6fb9e9f162bfe8ad19 = L.marker(
+                [26.1573, 91.6846],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_08b75524eafb8b5595834a49a76c6de8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1bb066ac57de9c6fb9e9f162bfe8ad19.setIcon(icon_08b75524eafb8b5595834a49a76c6de8);
+        
+    
+        var popup_4d81e96baba68949285bbc3aeae8aa2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbd568677c2bd642b3d079242acb402a = $(`<div id="html_cbd568677c2bd642b3d079242acb402a" style="width: 100.0%; height: 100.0%;">Place: Jalukbari Max Temperature: 37.6°C Suggested Actions: 1. Increase tree cover along main roads. 2. Develop urban parks in available land. 3. Paint building roofs and walls with reflective surfaces.</div>`)[0];
+                popup_4d81e96baba68949285bbc3aeae8aa2a.setContent(html_cbd568677c2bd642b3d079242acb402a);
+            
+        
+
+        marker_1bb066ac57de9c6fb9e9f162bfe8ad19.bindPopup(popup_4d81e96baba68949285bbc3aeae8aa2a)
+        ;
+
+        
+    
+    
+            var marker_2f215a285c51da6ff3aede8d55dce76d = L.marker(
+                [26.1823, 91.7458],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_949a684daec4fe4f9d4b9c309d873fdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2f215a285c51da6ff3aede8d55dce76d.setIcon(icon_949a684daec4fe4f9d4b9c309d873fdf);
+        
+    
+        var popup_565c01754b118e3a261057c37cd85015 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a10d7ebf1ff8b47ef2ec76ad81dff980 = $(`<div id="html_a10d7ebf1ff8b47ef2ec76ad81dff980" style="width: 100.0%; height: 100.0%;">Place: Pan Bazaar Max Temperature: 37.0°C Suggested Actions: 1. Increase tree cover in market areas. 2. Implement cool roofs on commercial buildings. 3. Paint roofs and walls with white or reflective paint. 4. Create shaded pedestrian zones.</div>`)[0];
+                popup_565c01754b118e3a261057c37cd85015.setContent(html_a10d7ebf1ff8b47ef2ec76ad81dff980);
+            
+        
+
+        marker_2f215a285c51da6ff3aede8d55dce76d.bindPopup(popup_565c01754b118e3a261057c37cd85015)
+        ;
+
+        
+    
+    
+            var marker_df69ce50c9ad00cd5d506ebdbec53dcf = L.marker(
+                [26.1832, 91.7412],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_f572616ad415e1750c722b662a85d5af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_df69ce50c9ad00cd5d506ebdbec53dcf.setIcon(icon_f572616ad415e1750c722b662a85d5af);
+        
+    
+        var popup_e709f07faffd359ff30bd7225d753053 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c9579003f47c1e946adfd1c452c0ff7 = $(`<div id="html_6c9579003f47c1e946adfd1c452c0ff7" style="width: 100.0%; height: 100.0%;">Place: Fancy Bazaar Max Temperature: 37.7°C Suggested Actions: 1. Introduce vertical gardens on buildings. 2. Paint roofs and walls with reflective surfaces. 3. Increase the number of parks and green spaces. 4. Encourage rooftop gardens.</div>`)[0];
+                popup_e709f07faffd359ff30bd7225d753053.setContent(html_6c9579003f47c1e946adfd1c452c0ff7);
+            
+        
+
+        marker_df69ce50c9ad00cd5d506ebdbec53dcf.bindPopup(popup_e709f07faffd359ff30bd7225d753053)
+        ;
+
+        
+    
+    
+            var marker_ae117b30837c9d09d013527b9d604ff6 = L.marker(
+                [26.181, 91.7516],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_036238c0832acbd392d6e6d51d8c9924 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ae117b30837c9d09d013527b9d604ff6.setIcon(icon_036238c0832acbd392d6e6d51d8c9924);
+        
+    
+        var popup_22c59d1c5f3b53da2f3921044247ec46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_126d20061024c01f197e78610f187e22 = $(`<div id="html_126d20061024c01f197e78610f187e22" style="width: 100.0%; height: 100.0%;">Place: Paltan Bazaar Max Temperature: 38.5°C Suggested Actions: 1. Expand public green spaces and tree cover. 2. Implement green roofs on market buildings. 3. Install reflective materials on roads and buildings.</div>`)[0];
+                popup_22c59d1c5f3b53da2f3921044247ec46.setContent(html_126d20061024c01f197e78610f187e22);
+            
+        
+
+        marker_ae117b30837c9d09d013527b9d604ff6.bindPopup(popup_22c59d1c5f3b53da2f3921044247ec46)
+        ;
+
+        
+    
+    
+            var marker_c1589593f4360f738fe53c1c971ed0bd = L.marker(
+                [26.1436, 91.7898],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_29f0a696ff0792ea25be5c9d41541fe7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c1589593f4360f738fe53c1c971ed0bd.setIcon(icon_29f0a696ff0792ea25be5c9d41541fe7);
+        
+    
+        var popup_d4d53bb110964807ce0eb58cff5b15b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dc16a943562ca43da6d5eeda3169664 = $(`<div id="html_6dc16a943562ca43da6d5eeda3169664" style="width: 100.0%; height: 100.0%;">Place: Dispur Max Temperature: 40.0°C Suggested Actions: 1. Plant trees along administrative buildings. 2. Paint government building roofs with reflective paint. 3. Develop green corridors. 4. Use cool paving materials in public spaces.</div>`)[0];
+                popup_d4d53bb110964807ce0eb58cff5b15b2.setContent(html_6dc16a943562ca43da6d5eeda3169664);
+            
+        
+
+        marker_c1589593f4360f738fe53c1c971ed0bd.bindPopup(popup_d4d53bb110964807ce0eb58cff5b15b2)
+        ;
+
+        
+    
+    
+            var marker_3ec25f9278da933ef45746513872e6e6 = L.marker(
+                [26.1761, 91.7523],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_a5fbea46078d9261b910393303e920cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3ec25f9278da933ef45746513872e6e6.setIcon(icon_a5fbea46078d9261b910393303e920cf);
+        
+    
+        var popup_adc1e8f2b38787f0b8e25065688931dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_393e80a3ddddba11ff8fb8f5aa83e719 = $(`<div id="html_393e80a3ddddba11ff8fb8f5aa83e719" style="width: 100.0%; height: 100.0%;">Place: Ulubari Max Temperature: 39.0°C Suggested Actions: 1. Create green walls and vertical gardens. 2. Promote community gardens in residential areas. 3. Paint residential roofs with white paint. 4. Install water features for cooling.</div>`)[0];
+                popup_adc1e8f2b38787f0b8e25065688931dc.setContent(html_393e80a3ddddba11ff8fb8f5aa83e719);
+            
+        
+
+        marker_3ec25f9278da933ef45746513872e6e6.bindPopup(popup_adc1e8f2b38787f0b8e25065688931dc)
+        ;
+
+        
+    
+    
+            var marker_a64bb64e8c01c2b1999235c2ab681717 = L.marker(
+                [26.1145, 91.8077],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_2e5f7163475b2be9b9c9f2d41358ed4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a64bb64e8c01c2b1999235c2ab681717.setIcon(icon_2e5f7163475b2be9b9c9f2d41358ed4f);
+        
+    
+        var popup_92faf760bce13370db86867980b4424b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23a21b79bd8891341bbf88949222f50 = $(`<div id="html_f23a21b79bd8891341bbf88949222f50" style="width: 100.0%; height: 100.0%;">Place: Beltola Max Temperature: 37.7°C Suggested Actions: 1. Enhance green cover in residential areas. 2. Implement green roofs and reflective surfaces on houses. 3. Promote planting of native trees.</div>`)[0];
+                popup_92faf760bce13370db86867980b4424b.setContent(html_f23a21b79bd8891341bbf88949222f50);
+            
+        
+
+        marker_a64bb64e8c01c2b1999235c2ab681717.bindPopup(popup_92faf760bce13370db86867980b4424b)
+        ;
+
+        
+    
+    
+            var marker_9f04a79acaa3250d306a94620fd826ac = L.marker(
+                [26.1384, 91.7907],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_e492c2253d1b10110fb999dfdc4d9e8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9f04a79acaa3250d306a94620fd826ac.setIcon(icon_e492c2253d1b10110fb999dfdc4d9e8a);
+        
+    
+        var popup_614924753d4e762e8ade659dd4b10cdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e1a98ef40064f48839bc3d230c22389 = $(`<div id="html_2e1a98ef40064f48839bc3d230c22389" style="width: 100.0%; height: 100.0%;">Place: Ganeshguri Max Temperature: 38.0°C Suggested Actions: 1. Increase shaded areas in commercial hubs. 2. Use reflective materials on roads and buildings. 3. Develop small parks and green buffers.</div>`)[0];
+                popup_614924753d4e762e8ade659dd4b10cdc.setContent(html_2e1a98ef40064f48839bc3d230c22389);
+            
+        
+
+        marker_9f04a79acaa3250d306a94620fd826ac.bindPopup(popup_614924753d4e762e8ade659dd4b10cdc)
+        ;
+
+        
+    
+    
+            var marker_ec7c0dcd6ad622bb97dad4a8f25757c9 = L.marker(
+                [26.1872, 91.7743],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_f8ee78a40a70ad1dc1efaee2fe15ec56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ec7c0dcd6ad622bb97dad4a8f25757c9.setIcon(icon_f8ee78a40a70ad1dc1efaee2fe15ec56);
+        
+    
+        var popup_93faaf38b928f73aba7e8b7d90d21ed2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89e9d39343f3f1c85ad04594282cdb0a = $(`<div id="html_89e9d39343f3f1c85ad04594282cdb0a" style="width: 100.0%; height: 100.0%;">Place: Chandmari Max Temperature: 37.0°C Suggested Actions: 1. Introduce urban forestry in available spaces. 2. Implement green roofs and reflective coatings on residential buildings. 3. Increase vegetation along roads.</div>`)[0];
+                popup_93faaf38b928f73aba7e8b7d90d21ed2.setContent(html_89e9d39343f3f1c85ad04594282cdb0a);
+            
+        
+
+        marker_ec7c0dcd6ad622bb97dad4a8f25757c9.bindPopup(popup_93faaf38b928f73aba7e8b7d90d21ed2)
+        ;
+
+        
+    
+    
+            var marker_8c8390bcda8c78d2d82841354dfccdec = L.marker(
+                [26.1511, 91.6657],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_a5a28e4e340df3e7a6abd6ec88de6640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8c8390bcda8c78d2d82841354dfccdec.setIcon(icon_a5a28e4e340df3e7a6abd6ec88de6640);
+        
+    
+        var popup_d7b97efb2870bd66fbe7363379af3431 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4d604f2f1a0374d5ef1b19cc51d39ab = $(`<div id="html_f4d604f2f1a0374d5ef1b19cc51d39ab" style="width: 100.0%; height: 100.0%;">Place: Guwahati University Max Temperature: 36.5°C Suggested Actions: 1. Expand campus green spaces. 2. Develop botanical gardens. 3. Paint university building roofs with white or reflective paint. 4. Use permeable paving materials to reduce heat.</div>`)[0];
+                popup_d7b97efb2870bd66fbe7363379af3431.setContent(html_f4d604f2f1a0374d5ef1b19cc51d39ab);
+            
+        
+
+        marker_8c8390bcda8c78d2d82841354dfccdec.bindPopup(popup_d7b97efb2870bd66fbe7363379af3431)
+        ;
+
+        
+    
+    
+            var marker_fb0f1724636aa88c19c3854731cde1ba = L.marker(
+                [26.1573, 91.6846],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_46ac9dfb5a7bf420a788360412bad62d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fb0f1724636aa88c19c3854731cde1ba.setIcon(icon_46ac9dfb5a7bf420a788360412bad62d);
+        
+    
+        var popup_e9e4453cd2b937576b32f428cd329b54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b849d7c807aeaf0aa1ccd1adf55cc3f = $(`<div id="html_6b849d7c807aeaf0aa1ccd1adf55cc3f" style="width: 100.0%; height: 100.0%;">Place: Jalukbari Max Temperature: 35.5°C Suggested Actions: 1. Increase tree cover along main roads. 2. Develop urban parks in available land. 3. Paint building roofs and walls with reflective surfaces.</div>`)[0];
+                popup_e9e4453cd2b937576b32f428cd329b54.setContent(html_6b849d7c807aeaf0aa1ccd1adf55cc3f);
+            
+        
+
+        marker_fb0f1724636aa88c19c3854731cde1ba.bindPopup(popup_e9e4453cd2b937576b32f428cd329b54)
+        ;
+
+        
+    
+    
+            var marker_cd284c6ed760c559798d352703d3bebb = L.marker(
+                [26.1823, 91.7458],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_ff567f3b27924837d222e264d23b77be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cd284c6ed760c559798d352703d3bebb.setIcon(icon_ff567f3b27924837d222e264d23b77be);
+        
+    
+        var popup_f6af81495ff6d88ef8e2b1fba771448c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0f35a7025520e70b320966be0d1f8ad = $(`<div id="html_e0f35a7025520e70b320966be0d1f8ad" style="width: 100.0%; height: 100.0%;">Place: Pan Bazaar Max Temperature: 36.0°C Suggested Actions: 1. Increase tree cover in market areas. 2. Implement cool roofs on commercial buildings. 3. Paint roofs and walls with white or reflective paint. 4. Create shaded pedestrian zones.</div>`)[0];
+                popup_f6af81495ff6d88ef8e2b1fba771448c.setContent(html_e0f35a7025520e70b320966be0d1f8ad);
+            
+        
+
+        marker_cd284c6ed760c559798d352703d3bebb.bindPopup(popup_f6af81495ff6d88ef8e2b1fba771448c)
+        ;
+
+        
+    
+    
+            var marker_15decb16ef0deb985955cc33b6bb2e65 = L.marker(
+                [26.1832, 91.7412],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_d4f93b89bc408d16d2c69e4b6b4a2bec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_15decb16ef0deb985955cc33b6bb2e65.setIcon(icon_d4f93b89bc408d16d2c69e4b6b4a2bec);
+        
+    
+        var popup_6422d888f82b2087ea29c799d11ba635 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c16cb769aab4d3c434719197310b165 = $(`<div id="html_8c16cb769aab4d3c434719197310b165" style="width: 100.0%; height: 100.0%;">Place: Fancy Bazaar Max Temperature: 35.6°C Suggested Actions: 1. Introduce vertical gardens on buildings. 2. Paint roofs and walls with reflective surfaces. 3. Increase the number of parks and green spaces. 4. Encourage rooftop gardens.</div>`)[0];
+                popup_6422d888f82b2087ea29c799d11ba635.setContent(html_8c16cb769aab4d3c434719197310b165);
+            
+        
+
+        marker_15decb16ef0deb985955cc33b6bb2e65.bindPopup(popup_6422d888f82b2087ea29c799d11ba635)
+        ;
+
+        
+    
+    
+            var marker_78fb340f9799beb2e95f17fa61a778ba = L.marker(
+                [26.181, 91.7516],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_3e6be7c00c2d2c2704269b085827e1da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_78fb340f9799beb2e95f17fa61a778ba.setIcon(icon_3e6be7c00c2d2c2704269b085827e1da);
+        
+    
+        var popup_ade8a5ae5f362535347ad73ee7fd3a43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7a2734e6ff233b390d2d9ab63666aa4 = $(`<div id="html_a7a2734e6ff233b390d2d9ab63666aa4" style="width: 100.0%; height: 100.0%;">Place: Paltan Bazaar Max Temperature: 38.5°C Suggested Actions: 1. Expand public green spaces and tree cover. 2. Implement green roofs on market buildings. 3. Install reflective materials on roads and buildings.</div>`)[0];
+                popup_ade8a5ae5f362535347ad73ee7fd3a43.setContent(html_a7a2734e6ff233b390d2d9ab63666aa4);
+            
+        
+
+        marker_78fb340f9799beb2e95f17fa61a778ba.bindPopup(popup_ade8a5ae5f362535347ad73ee7fd3a43)
+        ;
+
+        
+    
+    
+            var marker_16eef99cf47be5af5e83b9e44ccda1fe = L.marker(
+                [26.1436, 91.7898],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_17d2a23dd85b1279a0771b7e5c503a1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_16eef99cf47be5af5e83b9e44ccda1fe.setIcon(icon_17d2a23dd85b1279a0771b7e5c503a1b);
+        
+    
+        var popup_5b730c8dc8f7b6c851c8cf7b20990e3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc0bc13e52ea89e65f6667b0e4d8fc71 = $(`<div id="html_fc0bc13e52ea89e65f6667b0e4d8fc71" style="width: 100.0%; height: 100.0%;">Place: Dispur Max Temperature: 40.0°C Suggested Actions: 1. Plant trees along administrative buildings. 2. Paint government building roofs with reflective paint. 3. Develop green corridors. 4. Use cool paving materials in public spaces.</div>`)[0];
+                popup_5b730c8dc8f7b6c851c8cf7b20990e3d.setContent(html_fc0bc13e52ea89e65f6667b0e4d8fc71);
+            
+        
+
+        marker_16eef99cf47be5af5e83b9e44ccda1fe.bindPopup(popup_5b730c8dc8f7b6c851c8cf7b20990e3d)
+        ;
+
+        
+    
+    
+            var marker_748c966d6a4100b6c0340f3955f85056 = L.marker(
+                [26.1761, 91.7523],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_ff26c20d9febbc8c19919272aac0af68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_748c966d6a4100b6c0340f3955f85056.setIcon(icon_ff26c20d9febbc8c19919272aac0af68);
+        
+    
+        var popup_e03f12fc2b9f1506bc9d7241ebd71828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4b1a49d4dce0305da4a876539503e28 = $(`<div id="html_b4b1a49d4dce0305da4a876539503e28" style="width: 100.0%; height: 100.0%;">Place: Ulubari Max Temperature: 37.0°C Suggested Actions: 1. Create green walls and vertical gardens. 2. Promote community gardens in residential areas. 3. Paint residential roofs with white paint. 4. Install water features for cooling.</div>`)[0];
+                popup_e03f12fc2b9f1506bc9d7241ebd71828.setContent(html_b4b1a49d4dce0305da4a876539503e28);
+            
+        
+
+        marker_748c966d6a4100b6c0340f3955f85056.bindPopup(popup_e03f12fc2b9f1506bc9d7241ebd71828)
+        ;
+
+        
+    
+    
+            var marker_703a3a23ef8b55b4bdb950a58103cf62 = L.marker(
+                [26.1145, 91.8077],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_b705130a3df3ec55cc6c0ee23a811de9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_703a3a23ef8b55b4bdb950a58103cf62.setIcon(icon_b705130a3df3ec55cc6c0ee23a811de9);
+        
+    
+        var popup_b4d13ee89f990a9fc09d65caad0d8d7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_788ad42b14dc0912065145f5117ca47f = $(`<div id="html_788ad42b14dc0912065145f5117ca47f" style="width: 100.0%; height: 100.0%;">Place: Beltola Max Temperature: 41.0°C Suggested Actions: 1. Enhance green cover in residential areas. 2. Implement green roofs and reflective surfaces on houses. 3. Promote planting of native trees.</div>`)[0];
+                popup_b4d13ee89f990a9fc09d65caad0d8d7b.setContent(html_788ad42b14dc0912065145f5117ca47f);
+            
+        
+
+        marker_703a3a23ef8b55b4bdb950a58103cf62.bindPopup(popup_b4d13ee89f990a9fc09d65caad0d8d7b)
+        ;
+
+        
+    
+    
+            var marker_c8b75a1b797953da2908959eba1bb7d7 = L.marker(
+                [26.1384, 91.7907],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_c3051e495966644b3422decee7582857 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c8b75a1b797953da2908959eba1bb7d7.setIcon(icon_c3051e495966644b3422decee7582857);
+        
+    
+        var popup_bb7718252f090a4eed56e318c28077fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dbff04a7d6c5a09d9b63c0dd3bde95b = $(`<div id="html_0dbff04a7d6c5a09d9b63c0dd3bde95b" style="width: 100.0%; height: 100.0%;">Place: Ganeshguri Max Temperature: 40.4°C Suggested Actions: 1. Increase shaded areas in commercial hubs. 2. Use reflective materials on roads and buildings. 3. Develop small parks and green buffers.</div>`)[0];
+                popup_bb7718252f090a4eed56e318c28077fa.setContent(html_0dbff04a7d6c5a09d9b63c0dd3bde95b);
+            
+        
+
+        marker_c8b75a1b797953da2908959eba1bb7d7.bindPopup(popup_bb7718252f090a4eed56e318c28077fa)
+        ;
+
+        
+    
+    
+            var marker_f005bc7c9f5646d864664c16f5be321b = L.marker(
+                [26.1872, 91.7743],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_faea77f746ff6701f2c754ff68fb4464 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f005bc7c9f5646d864664c16f5be321b.setIcon(icon_faea77f746ff6701f2c754ff68fb4464);
+        
+    
+        var popup_4714626ade3b9603d51c9ea35d4a5ca5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8034589701e493a643123b49040e4b5 = $(`<div id="html_f8034589701e493a643123b49040e4b5" style="width: 100.0%; height: 100.0%;">Place: Chandmari Max Temperature: 37.0°C Suggested Actions: 1. Introduce urban forestry in available spaces. 2. Implement green roofs and reflective coatings on residential buildings. 3. Increase vegetation along roads.</div>`)[0];
+                popup_4714626ade3b9603d51c9ea35d4a5ca5.setContent(html_f8034589701e493a643123b49040e4b5);
+            
+        
+
+        marker_f005bc7c9f5646d864664c16f5be321b.bindPopup(popup_4714626ade3b9603d51c9ea35d4a5ca5)
+        ;
+
+        
+    
+    
+            var marker_8688ade574fd91989bc19284298dc311 = L.marker(
+                [26.1511, 91.6657],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_23c22542e5cba086eddccb5732e29a73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8688ade574fd91989bc19284298dc311.setIcon(icon_23c22542e5cba086eddccb5732e29a73);
+        
+    
+        var popup_683720cd1555ec45113b7ca7ab0ceafb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2850a6ea70e350de92c13898ff54c6ed = $(`<div id="html_2850a6ea70e350de92c13898ff54c6ed" style="width: 100.0%; height: 100.0%;">Place: Guwahati University Max Temperature: 35.7°C Suggested Actions: 1. Expand campus green spaces. 2. Develop botanical gardens. 3. Paint university building roofs with white or reflective paint. 4. Use permeable paving materials to reduce heat.</div>`)[0];
+                popup_683720cd1555ec45113b7ca7ab0ceafb.setContent(html_2850a6ea70e350de92c13898ff54c6ed);
+            
+        
+
+        marker_8688ade574fd91989bc19284298dc311.bindPopup(popup_683720cd1555ec45113b7ca7ab0ceafb)
+        ;
+
+        
+    
+    
+            var marker_8c6ed49a60afd87cedcfc335faa4877c = L.marker(
+                [26.1573, 91.6846],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_3ae50bf74e904b4a3db03ba3feda9c4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8c6ed49a60afd87cedcfc335faa4877c.setIcon(icon_3ae50bf74e904b4a3db03ba3feda9c4c);
+        
+    
+        var popup_c4fa54dde953a6c804972b722ef81d48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3613acfe05d8be0cfb60524c509fac59 = $(`<div id="html_3613acfe05d8be0cfb60524c509fac59" style="width: 100.0%; height: 100.0%;">Place: Jalukbari Max Temperature: 36.0°C Suggested Actions: 1. Increase tree cover along main roads. 2. Develop urban parks in available land. 3. Paint building roofs and walls with reflective surfaces.</div>`)[0];
+                popup_c4fa54dde953a6c804972b722ef81d48.setContent(html_3613acfe05d8be0cfb60524c509fac59);
+            
+        
+
+        marker_8c6ed49a60afd87cedcfc335faa4877c.bindPopup(popup_c4fa54dde953a6c804972b722ef81d48)
+        ;
+
+        
+    
+    
+            var marker_b187249d61586abb26c07ed4624d29aa = L.marker(
+                [26.1823, 91.7458],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_287cf37add382a10cc94ce810567c30d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b187249d61586abb26c07ed4624d29aa.setIcon(icon_287cf37add382a10cc94ce810567c30d);
+        
+    
+        var popup_3afb770c9fb5fc09ea62128f2c60c237 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76c65fb775ab6ec1eb5d206e0de9c19a = $(`<div id="html_76c65fb775ab6ec1eb5d206e0de9c19a" style="width: 100.0%; height: 100.0%;">Place: Pan Bazaar Max Temperature: 35.8°C Suggested Actions: 1. Increase tree cover in market areas. 2. Implement cool roofs on commercial buildings. 3. Paint roofs and walls with white or reflective paint. 4. Create shaded pedestrian zones.</div>`)[0];
+                popup_3afb770c9fb5fc09ea62128f2c60c237.setContent(html_76c65fb775ab6ec1eb5d206e0de9c19a);
+            
+        
+
+        marker_b187249d61586abb26c07ed4624d29aa.bindPopup(popup_3afb770c9fb5fc09ea62128f2c60c237)
+        ;
+
+        
+    
+    
+            var marker_eb30c72bdf376482862e90ac885250a2 = L.marker(
+                [26.1832, 91.7412],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_b9e577083bc7067ab52c00447146080a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_eb30c72bdf376482862e90ac885250a2.setIcon(icon_b9e577083bc7067ab52c00447146080a);
+        
+    
+        var popup_8842f233a3a373e6b302b8a3abe7e51d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23478639097dbbe2d931bd3a962a23d8 = $(`<div id="html_23478639097dbbe2d931bd3a962a23d8" style="width: 100.0%; height: 100.0%;">Place: Fancy Bazaar Max Temperature: 36.0°C Suggested Actions: 1. Introduce vertical gardens on buildings. 2. Paint roofs and walls with reflective surfaces. 3. Increase the number of parks and green spaces. 4. Encourage rooftop gardens.</div>`)[0];
+                popup_8842f233a3a373e6b302b8a3abe7e51d.setContent(html_23478639097dbbe2d931bd3a962a23d8);
+            
+        
+
+        marker_eb30c72bdf376482862e90ac885250a2.bindPopup(popup_8842f233a3a373e6b302b8a3abe7e51d)
+        ;
+
+        
+    
+    
+            var marker_d43a2f02c75574f403dcbff58969a1a5 = L.marker(
+                [26.181, 91.7516],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_90fd5f4bdc0e83f6f548ff62fa2c5818 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_d43a2f02c75574f403dcbff58969a1a5.setIcon(icon_90fd5f4bdc0e83f6f548ff62fa2c5818);
+        
+    
+        var popup_c3f0dde26bdcb7974cee157ff3c95cf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cef5a2c52fbc6e87e61468bd4b2c6f96 = $(`<div id="html_cef5a2c52fbc6e87e61468bd4b2c6f96" style="width: 100.0%; height: 100.0%;">Place: Paltan Bazaar Max Temperature: 35.3°C Suggested Actions: 1. Expand public green spaces and tree cover. 2. Implement green roofs on market buildings. 3. Install reflective materials on roads and buildings.</div>`)[0];
+                popup_c3f0dde26bdcb7974cee157ff3c95cf7.setContent(html_cef5a2c52fbc6e87e61468bd4b2c6f96);
+            
+        
+
+        marker_d43a2f02c75574f403dcbff58969a1a5.bindPopup(popup_c3f0dde26bdcb7974cee157ff3c95cf7)
+        ;
+
+        
+    
+    
+            var marker_02925bf1e90a2ba50888de11d4b6a400 = L.marker(
+                [26.1436, 91.7898],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_cf5a91c4185d8653814bf403aec90164 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_02925bf1e90a2ba50888de11d4b6a400.setIcon(icon_cf5a91c4185d8653814bf403aec90164);
+        
+    
+        var popup_9ba00402e1ffc8e718f0b8e9905e0ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dd0e46838b921f8e63190acdc92b323 = $(`<div id="html_9dd0e46838b921f8e63190acdc92b323" style="width: 100.0%; height: 100.0%;">Place: Dispur Max Temperature: 35.7°C Suggested Actions: 1. Plant trees along administrative buildings. 2. Paint government building roofs with reflective paint. 3. Develop green corridors. 4. Use cool paving materials in public spaces.</div>`)[0];
+                popup_9ba00402e1ffc8e718f0b8e9905e0ac7.setContent(html_9dd0e46838b921f8e63190acdc92b323);
+            
+        
+
+        marker_02925bf1e90a2ba50888de11d4b6a400.bindPopup(popup_9ba00402e1ffc8e718f0b8e9905e0ac7)
+        ;
+
+        
+    
+    
+            var marker_5cf7c96ff8005738bc2601b80bc51b66 = L.marker(
+                [26.1761, 91.7523],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_a3af52f442572601c70cdea4b8b7874c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5cf7c96ff8005738bc2601b80bc51b66.setIcon(icon_a3af52f442572601c70cdea4b8b7874c);
+        
+    
+        var popup_a5a411a0d199acdb1bb25e357d7f1546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6378b8741dce1f44f444ad1f3458646d = $(`<div id="html_6378b8741dce1f44f444ad1f3458646d" style="width: 100.0%; height: 100.0%;">Place: Ulubari Max Temperature: 37.0°C Suggested Actions: 1. Create green walls and vertical gardens. 2. Promote community gardens in residential areas. 3. Paint residential roofs with white paint. 4. Install water features for cooling.</div>`)[0];
+                popup_a5a411a0d199acdb1bb25e357d7f1546.setContent(html_6378b8741dce1f44f444ad1f3458646d);
+            
+        
+
+        marker_5cf7c96ff8005738bc2601b80bc51b66.bindPopup(popup_a5a411a0d199acdb1bb25e357d7f1546)
+        ;
+
+        
+    
+    
+            var marker_66ff0b066e14043745020b6028530424 = L.marker(
+                [26.1145, 91.8077],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_54312f53e68231289f6680ca5e8cf4c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_66ff0b066e14043745020b6028530424.setIcon(icon_54312f53e68231289f6680ca5e8cf4c8);
+        
+    
+        var popup_154a9f7f022f29967d169408bd7df2f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fd96989ae74ab7fe7a710b361a1d756 = $(`<div id="html_1fd96989ae74ab7fe7a710b361a1d756" style="width: 100.0%; height: 100.0%;">Place: Beltola Max Temperature: 37.4°C Suggested Actions: 1. Enhance green cover in residential areas. 2. Implement green roofs and reflective surfaces on houses. 3. Promote planting of native trees.</div>`)[0];
+                popup_154a9f7f022f29967d169408bd7df2f7.setContent(html_1fd96989ae74ab7fe7a710b361a1d756);
+            
+        
+
+        marker_66ff0b066e14043745020b6028530424.bindPopup(popup_154a9f7f022f29967d169408bd7df2f7)
+        ;
+
+        
+    
+    
+            var marker_e8aa087a0e91cc143264befd05f335dc = L.marker(
+                [26.1384, 91.7907],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_5e0d208d04dd4873fbe8c3d01aa10614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e8aa087a0e91cc143264befd05f335dc.setIcon(icon_5e0d208d04dd4873fbe8c3d01aa10614);
+        
+    
+        var popup_639ff0eeee89b48745037de4e9faf6dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2327580ec289983f0023ca367403a23b = $(`<div id="html_2327580ec289983f0023ca367403a23b" style="width: 100.0%; height: 100.0%;">Place: Ganeshguri Max Temperature: 36.0°C Suggested Actions: 1. Increase shaded areas in commercial hubs. 2. Use reflective materials on roads and buildings. 3. Develop small parks and green buffers.</div>`)[0];
+                popup_639ff0eeee89b48745037de4e9faf6dd.setContent(html_2327580ec289983f0023ca367403a23b);
+            
+        
+
+        marker_e8aa087a0e91cc143264befd05f335dc.bindPopup(popup_639ff0eeee89b48745037de4e9faf6dd)
+        ;
+
+        
+    
+    
+            var marker_f004aaec734e342418c1679f7d3763ea = L.marker(
+                [26.1872, 91.7743],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_314db162d111e8ca1d6f63349b8c6cb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f004aaec734e342418c1679f7d3763ea.setIcon(icon_314db162d111e8ca1d6f63349b8c6cb2);
+        
+    
+        var popup_6bc0d9a832b7671d4cd46759a36ce4c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02263ea38e10969187f9389c4c5c0c19 = $(`<div id="html_02263ea38e10969187f9389c4c5c0c19" style="width: 100.0%; height: 100.0%;">Place: Chandmari Max Temperature: 35.7°C Suggested Actions: 1. Introduce urban forestry in available spaces. 2. Implement green roofs and reflective coatings on residential buildings. 3. Increase vegetation along roads.</div>`)[0];
+                popup_6bc0d9a832b7671d4cd46759a36ce4c9.setContent(html_02263ea38e10969187f9389c4c5c0c19);
+            
+        
+
+        marker_f004aaec734e342418c1679f7d3763ea.bindPopup(popup_6bc0d9a832b7671d4cd46759a36ce4c9)
+        ;
+
+        
+    
+    
+            var marker_5979ba990ede596095beb67b7649fe3a = L.marker(
+                [26.1511, 91.6657],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_c057723feed86ef5515fecf11ddd9e68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5979ba990ede596095beb67b7649fe3a.setIcon(icon_c057723feed86ef5515fecf11ddd9e68);
+        
+    
+        var popup_6f52d03345102c048ede40eea6eabe75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5004f79e4c241e7108ce8c1e18930b76 = $(`<div id="html_5004f79e4c241e7108ce8c1e18930b76" style="width: 100.0%; height: 100.0%;">Place: Guwahati University Max Temperature: 35.8°C Suggested Actions: 1. Expand campus green spaces. 2. Develop botanical gardens. 3. Paint university building roofs with white or reflective paint. 4. Use permeable paving materials to reduce heat.</div>`)[0];
+                popup_6f52d03345102c048ede40eea6eabe75.setContent(html_5004f79e4c241e7108ce8c1e18930b76);
+            
+        
+
+        marker_5979ba990ede596095beb67b7649fe3a.bindPopup(popup_6f52d03345102c048ede40eea6eabe75)
+        ;
+
+        
+    
+    
+            var marker_1bc6d824c8ec1fa2837b43db849331af = L.marker(
+                [26.1573, 91.6846],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_f89db66bef4aa88d46e1fadbe5db138b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1bc6d824c8ec1fa2837b43db849331af.setIcon(icon_f89db66bef4aa88d46e1fadbe5db138b);
+        
+    
+        var popup_bda4cf4632548e98710def2d75a0aa14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5bedbc1138756f397351a72b5cd7c39 = $(`<div id="html_f5bedbc1138756f397351a72b5cd7c39" style="width: 100.0%; height: 100.0%;">Place: Jalukbari Max Temperature: 36.0°C Suggested Actions: 1. Increase tree cover along main roads. 2. Develop urban parks in available land. 3. Paint building roofs and walls with reflective surfaces.</div>`)[0];
+                popup_bda4cf4632548e98710def2d75a0aa14.setContent(html_f5bedbc1138756f397351a72b5cd7c39);
+            
+        
+
+        marker_1bc6d824c8ec1fa2837b43db849331af.bindPopup(popup_bda4cf4632548e98710def2d75a0aa14)
+        ;
+
+        
+    
+    
+            var marker_b511c963d40eafb8a4f8540a926b54d2 = L.marker(
+                [26.1823, 91.7458],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_60bf3fd52711792dd31061bcc172c179 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b511c963d40eafb8a4f8540a926b54d2.setIcon(icon_60bf3fd52711792dd31061bcc172c179);
+        
+    
+        var popup_db42f2c734a67fe2a08a50da090d8884 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b517433f419bb99d40ddb8169629a4cc = $(`<div id="html_b517433f419bb99d40ddb8169629a4cc" style="width: 100.0%; height: 100.0%;">Place: Pan Bazaar Max Temperature: 36.0°C Suggested Actions: 1. Increase tree cover in market areas. 2. Implement cool roofs on commercial buildings. 3. Paint roofs and walls with white or reflective paint. 4. Create shaded pedestrian zones.</div>`)[0];
+                popup_db42f2c734a67fe2a08a50da090d8884.setContent(html_b517433f419bb99d40ddb8169629a4cc);
+            
+        
+
+        marker_b511c963d40eafb8a4f8540a926b54d2.bindPopup(popup_db42f2c734a67fe2a08a50da090d8884)
+        ;
+
+        
+    
+    
+            var marker_97d63324639eef73ba493486092e519f = L.marker(
+                [26.1832, 91.7412],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_bc972510520d624797d39ea75bcc0c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_97d63324639eef73ba493486092e519f.setIcon(icon_bc972510520d624797d39ea75bcc0c4f);
+        
+    
+        var popup_ca502a7d7a4d209bd09ad700006dcc8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b25d4d81905bbb234815ffa501f8aa31 = $(`<div id="html_b25d4d81905bbb234815ffa501f8aa31" style="width: 100.0%; height: 100.0%;">Place: Fancy Bazaar Max Temperature: 35.9°C Suggested Actions: 1. Introduce vertical gardens on buildings. 2. Paint roofs and walls with reflective surfaces. 3. Increase the number of parks and green spaces. 4. Encourage rooftop gardens.</div>`)[0];
+                popup_ca502a7d7a4d209bd09ad700006dcc8b.setContent(html_b25d4d81905bbb234815ffa501f8aa31);
+            
+        
+
+        marker_97d63324639eef73ba493486092e519f.bindPopup(popup_ca502a7d7a4d209bd09ad700006dcc8b)
+        ;
+
+        
+    
+    
+            var marker_39c1cb5b28dc0812f7dfcc0daa16306c = L.marker(
+                [26.181, 91.7516],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_0c0f3b165247bce6301c2b7761323080 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_39c1cb5b28dc0812f7dfcc0daa16306c.setIcon(icon_0c0f3b165247bce6301c2b7761323080);
+        
+    
+        var popup_9f209a82f9142f4b5325f6d85f400050 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42752e25d14e635099e3a352d694326c = $(`<div id="html_42752e25d14e635099e3a352d694326c" style="width: 100.0%; height: 100.0%;">Place: Paltan Bazaar Max Temperature: 36.3°C Suggested Actions: 1. Expand public green spaces and tree cover. 2. Implement green roofs on market buildings. 3. Install reflective materials on roads and buildings.</div>`)[0];
+                popup_9f209a82f9142f4b5325f6d85f400050.setContent(html_42752e25d14e635099e3a352d694326c);
+            
+        
+
+        marker_39c1cb5b28dc0812f7dfcc0daa16306c.bindPopup(popup_9f209a82f9142f4b5325f6d85f400050)
+        ;
+
+        
+    
+    
+            var marker_caf7cecf0c397afbf97cd0052e46ff7e = L.marker(
+                [26.1436, 91.7898],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_c182d74119c38c852395cccfef05332c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_caf7cecf0c397afbf97cd0052e46ff7e.setIcon(icon_c182d74119c38c852395cccfef05332c);
+        
+    
+        var popup_b12efc25cee90a7f8a0d2f0e058afd3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60490bea3bb0d7c8336960c3b902b9f4 = $(`<div id="html_60490bea3bb0d7c8336960c3b902b9f4" style="width: 100.0%; height: 100.0%;">Place: Dispur Max Temperature: 36.0°C Suggested Actions: 1. Plant trees along administrative buildings. 2. Paint government building roofs with reflective paint. 3. Develop green corridors. 4. Use cool paving materials in public spaces.</div>`)[0];
+                popup_b12efc25cee90a7f8a0d2f0e058afd3a.setContent(html_60490bea3bb0d7c8336960c3b902b9f4);
+            
+        
+
+        marker_caf7cecf0c397afbf97cd0052e46ff7e.bindPopup(popup_b12efc25cee90a7f8a0d2f0e058afd3a)
+        ;
+
+        
+    
+    
+            var marker_18c58977556b6ff7ac40627c1f3ca625 = L.marker(
+                [26.1761, 91.7523],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_c73ed0176ef7005bf7633fdea6a66395 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_18c58977556b6ff7ac40627c1f3ca625.setIcon(icon_c73ed0176ef7005bf7633fdea6a66395);
+        
+    
+        var popup_8e124cddc73b741acb882089e32815db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d6dd71ca8ef511a0f8b48d0527c5576 = $(`<div id="html_1d6dd71ca8ef511a0f8b48d0527c5576" style="width: 100.0%; height: 100.0%;">Place: Ulubari Max Temperature: 35.9°C Suggested Actions: 1. Create green walls and vertical gardens. 2. Promote community gardens in residential areas. 3. Paint residential roofs with white paint. 4. Install water features for cooling.</div>`)[0];
+                popup_8e124cddc73b741acb882089e32815db.setContent(html_1d6dd71ca8ef511a0f8b48d0527c5576);
+            
+        
+
+        marker_18c58977556b6ff7ac40627c1f3ca625.bindPopup(popup_8e124cddc73b741acb882089e32815db)
+        ;
+
+        
+    
+    
+            var marker_e200c69b3be645dc381e2ecfe8150918 = L.marker(
+                [26.1145, 91.8077],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_a38c1b38ed470ffff42134ba8973d905 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e200c69b3be645dc381e2ecfe8150918.setIcon(icon_a38c1b38ed470ffff42134ba8973d905);
+        
+    
+        var popup_d9c755560fa368138c569573545c2efa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27b0e7a530a16da4b9166ecded4c193d = $(`<div id="html_27b0e7a530a16da4b9166ecded4c193d" style="width: 100.0%; height: 100.0%;">Place: Beltola Max Temperature: 36.0°C Suggested Actions: 1. Enhance green cover in residential areas. 2. Implement green roofs and reflective surfaces on houses. 3. Promote planting of native trees.</div>`)[0];
+                popup_d9c755560fa368138c569573545c2efa.setContent(html_27b0e7a530a16da4b9166ecded4c193d);
+            
+        
+
+        marker_e200c69b3be645dc381e2ecfe8150918.bindPopup(popup_d9c755560fa368138c569573545c2efa)
+        ;
+
+        
+    
+    
+            var marker_2d7e4485e9bf0eb3bb78c47608809e97 = L.marker(
+                [26.1384, 91.7907],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_9b30fe6d9fb7dd782375ae43237d50f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_2d7e4485e9bf0eb3bb78c47608809e97.setIcon(icon_9b30fe6d9fb7dd782375ae43237d50f8);
+        
+    
+        var popup_daa95157fd12d021a4b1534ac7e1b10e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7bf5ef174458b4ee8708e3fc2ae7af5 = $(`<div id="html_e7bf5ef174458b4ee8708e3fc2ae7af5" style="width: 100.0%; height: 100.0%;">Place: Ganeshguri Max Temperature: 36.0°C Suggested Actions: 1. Increase shaded areas in commercial hubs. 2. Use reflective materials on roads and buildings. 3. Develop small parks and green buffers.</div>`)[0];
+                popup_daa95157fd12d021a4b1534ac7e1b10e.setContent(html_e7bf5ef174458b4ee8708e3fc2ae7af5);
+            
+        
+
+        marker_2d7e4485e9bf0eb3bb78c47608809e97.bindPopup(popup_daa95157fd12d021a4b1534ac7e1b10e)
+        ;
+
+        
+    
+    
+            var marker_82e6802548032ab975746a090bc99ebc = L.marker(
+                [26.1872, 91.7743],
+                {}
+            ).addTo(map_f31c08573d496cd276aec23247a46296);
+        
+    
+            var icon_cdac8c5410056932542dc78a8eabce44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "leaf", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_82e6802548032ab975746a090bc99ebc.setIcon(icon_cdac8c5410056932542dc78a8eabce44);
+        
+    
+        var popup_80ffb5aee6a174b46b53c4ea66732047 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33fd466a4bd883412ea78a163dd6f643 = $(`<div id="html_33fd466a4bd883412ea78a163dd6f643" style="width: 100.0%; height: 100.0%;">Place: Chandmari Max Temperature: 36.0°C Suggested Actions: 1. Introduce urban forestry in available spaces. 2. Implement green roofs and reflective coatings on residential buildings. 3. Increase vegetation along roads.</div>`)[0];
+                popup_80ffb5aee6a174b46b53c4ea66732047.setContent(html_33fd466a4bd883412ea78a163dd6f643);
+            
+        
+
+        marker_82e6802548032ab975746a090bc99ebc.bindPopup(popup_80ffb5aee6a174b46b53c4ea66732047)
+        ;
+
+        
+    
+</script>
+</html>

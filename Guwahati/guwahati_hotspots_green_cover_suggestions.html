@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_03d67cefd631542f44ee3df1c9affa2e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_03d67cefd631542f44ee3df1c9affa2e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_03d67cefd631542f44ee3df1c9affa2e = L.map(
+                "map_03d67cefd631542f44ee3df1c9affa2e",
+                {
+                    center: [26.1445, 91.7362],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6281dc5aa9ad7190d49523d211d2b81c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6281dc5aa9ad7190d49523d211d2b81c.addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var marker_ffbac4fbd54282cfc9d09f85753b576d = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_7fbf27dc899e1468385ec20d8fd8d56a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ffbac4fbd54282cfc9d09f85753b576d.setIcon(icon_7fbf27dc899e1468385ec20d8fd8d56a);
+        
+    
+        var popup_0e4e0eb9d0f6c69700152345cce43f6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91502f0387f0dcfa87179da4692cec84 = $(`<div id="html_91502f0387f0dcfa87179da4692cec84" style="width: 100.0%; height: 100.0%;">Date: 2023-03-09 Max Temperature: 35.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_0e4e0eb9d0f6c69700152345cce43f6b.setContent(html_91502f0387f0dcfa87179da4692cec84);
+            
+        
+
+        marker_ffbac4fbd54282cfc9d09f85753b576d.bindPopup(popup_0e4e0eb9d0f6c69700152345cce43f6b)
+        ;
+
+        
+    
+    
+            var marker_bdcb2c3598b757021145c18a82b08094 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_d53445d3b7eb103bf66eb9fb9787bf24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bdcb2c3598b757021145c18a82b08094.setIcon(icon_d53445d3b7eb103bf66eb9fb9787bf24);
+        
+    
+        var popup_e7e40751994dc5f6c761cb585e5eeb19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acf15e68538218ba46707c7083cebcc5 = $(`<div id="html_acf15e68538218ba46707c7083cebcc5" style="width: 100.0%; height: 100.0%;">Date: 2023-03-11 Max Temperature: 35.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_e7e40751994dc5f6c761cb585e5eeb19.setContent(html_acf15e68538218ba46707c7083cebcc5);
+            
+        
+
+        marker_bdcb2c3598b757021145c18a82b08094.bindPopup(popup_e7e40751994dc5f6c761cb585e5eeb19)
+        ;
+
+        
+    
+    
+            var marker_6b80956a86b637c2f42b05640c95d71a = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_1b3d33d87c2329fe2a24da0a508034dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6b80956a86b637c2f42b05640c95d71a.setIcon(icon_1b3d33d87c2329fe2a24da0a508034dd);
+        
+    
+        var popup_6e2f8d281fcc29529a84f2c39f296f99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f08cf77507eb2a1efa5a7fd1ede79eb = $(`<div id="html_5f08cf77507eb2a1efa5a7fd1ede79eb" style="width: 100.0%; height: 100.0%;">Date: 2023-03-12 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_6e2f8d281fcc29529a84f2c39f296f99.setContent(html_5f08cf77507eb2a1efa5a7fd1ede79eb);
+            
+        
+
+        marker_6b80956a86b637c2f42b05640c95d71a.bindPopup(popup_6e2f8d281fcc29529a84f2c39f296f99)
+        ;
+
+        
+    
+    
+            var marker_0ea186ff71f94065046803904c63ad8e = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_053fa20b58be1871f7f19fec4633961a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0ea186ff71f94065046803904c63ad8e.setIcon(icon_053fa20b58be1871f7f19fec4633961a);
+        
+    
+        var popup_810f58c88f7cf220705005c6b7c9497b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1de14dbe43158de87ed5b247dc00d2e = $(`<div id="html_f1de14dbe43158de87ed5b247dc00d2e" style="width: 100.0%; height: 100.0%;">Date: 2023-03-13 Max Temperature: 35.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_810f58c88f7cf220705005c6b7c9497b.setContent(html_f1de14dbe43158de87ed5b247dc00d2e);
+            
+        
+
+        marker_0ea186ff71f94065046803904c63ad8e.bindPopup(popup_810f58c88f7cf220705005c6b7c9497b)
+        ;
+
+        
+    
+    
+            var marker_1c4271f94a556079a209c095e33997a5 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_e9864fd6f2d91cd88a429a43046cc289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1c4271f94a556079a209c095e33997a5.setIcon(icon_e9864fd6f2d91cd88a429a43046cc289);
+        
+    
+        var popup_2e7e5179518aaaedb0189785fbdf44ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7f2eb941b9c0584de372f7b337abb37 = $(`<div id="html_f7f2eb941b9c0584de372f7b337abb37" style="width: 100.0%; height: 100.0%;">Date: 2023-03-14 Max Temperature: 35.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_2e7e5179518aaaedb0189785fbdf44ad.setContent(html_f7f2eb941b9c0584de372f7b337abb37);
+            
+        
+
+        marker_1c4271f94a556079a209c095e33997a5.bindPopup(popup_2e7e5179518aaaedb0189785fbdf44ad)
+        ;
+
+        
+    
+    
+            var marker_0dc68669abf6cd4b91f128d613368d57 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_42b63650ace19f013d152ac254e0103b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0dc68669abf6cd4b91f128d613368d57.setIcon(icon_42b63650ace19f013d152ac254e0103b);
+        
+    
+        var popup_ca81e36875c74c04ee51ed472c3dc38f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_516abb93b04fe4cd050e958659a83fd7 = $(`<div id="html_516abb93b04fe4cd050e958659a83fd7" style="width: 100.0%; height: 100.0%;">Date: 2023-04-08 Max Temperature: 36.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_ca81e36875c74c04ee51ed472c3dc38f.setContent(html_516abb93b04fe4cd050e958659a83fd7);
+            
+        
+
+        marker_0dc68669abf6cd4b91f128d613368d57.bindPopup(popup_ca81e36875c74c04ee51ed472c3dc38f)
+        ;
+
+        
+    
+    
+            var marker_42c98e3da1c8b2434c1b4255013cf77d = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_16a3257adefc1881bb60b10879bfb90f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_42c98e3da1c8b2434c1b4255013cf77d.setIcon(icon_16a3257adefc1881bb60b10879bfb90f);
+        
+    
+        var popup_749313fb3a4b5e42dde80d1ff1427f3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b6d33550bb408553df1f9530cfc1f3bd = $(`<div id="html_b6d33550bb408553df1f9530cfc1f3bd" style="width: 100.0%; height: 100.0%;">Date: 2023-04-09 Max Temperature: 37.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_749313fb3a4b5e42dde80d1ff1427f3f.setContent(html_b6d33550bb408553df1f9530cfc1f3bd);
+            
+        
+
+        marker_42c98e3da1c8b2434c1b4255013cf77d.bindPopup(popup_749313fb3a4b5e42dde80d1ff1427f3f)
+        ;
+
+        
+    
+    
+            var marker_e2edb8f96c1dd25e7bfedb381199d569 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_6ab7776cba0747e566a498b8975f3025 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e2edb8f96c1dd25e7bfedb381199d569.setIcon(icon_6ab7776cba0747e566a498b8975f3025);
+        
+    
+        var popup_da5fed1e40586c1cf5d6ba735700691d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ed53a37c85ba1731ec22836253ef195 = $(`<div id="html_2ed53a37c85ba1731ec22836253ef195" style="width: 100.0%; height: 100.0%;">Date: 2023-04-10 Max Temperature: 38.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_da5fed1e40586c1cf5d6ba735700691d.setContent(html_2ed53a37c85ba1731ec22836253ef195);
+            
+        
+
+        marker_e2edb8f96c1dd25e7bfedb381199d569.bindPopup(popup_da5fed1e40586c1cf5d6ba735700691d)
+        ;
+
+        
+    
+    
+            var marker_8f78efa8a336e80bfbb631c3ea71a028 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_ff4b41e3702906c397ad8a772e450ab7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8f78efa8a336e80bfbb631c3ea71a028.setIcon(icon_ff4b41e3702906c397ad8a772e450ab7);
+        
+    
+        var popup_27265036808debefd8b1e0b62f100f44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca168bb5a3f2591ce87227360fc268bd = $(`<div id="html_ca168bb5a3f2591ce87227360fc268bd" style="width: 100.0%; height: 100.0%;">Date: 2023-04-11 Max Temperature: 37.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_27265036808debefd8b1e0b62f100f44.setContent(html_ca168bb5a3f2591ce87227360fc268bd);
+            
+        
+
+        marker_8f78efa8a336e80bfbb631c3ea71a028.bindPopup(popup_27265036808debefd8b1e0b62f100f44)
+        ;
+
+        
+    
+    
+            var marker_2414545f0e7173ad25b86969a525fffd = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_42b4e69a3ab947d77967262746fba0af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2414545f0e7173ad25b86969a525fffd.setIcon(icon_42b4e69a3ab947d77967262746fba0af);
+        
+    
+        var popup_8b42eace2b2d0b88b81bb32b17bc72b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f88c981dd83dbb90c13f271baf2bf6a = $(`<div id="html_3f88c981dd83dbb90c13f271baf2bf6a" style="width: 100.0%; height: 100.0%;">Date: 2023-04-12 Max Temperature: 37.6°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_8b42eace2b2d0b88b81bb32b17bc72b8.setContent(html_3f88c981dd83dbb90c13f271baf2bf6a);
+            
+        
+
+        marker_2414545f0e7173ad25b86969a525fffd.bindPopup(popup_8b42eace2b2d0b88b81bb32b17bc72b8)
+        ;
+
+        
+    
+    
+            var marker_cbf11aedae1125874befb8f15723571d = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_3b2b0147c76cb5d4e3cdbb530a01c624 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cbf11aedae1125874befb8f15723571d.setIcon(icon_3b2b0147c76cb5d4e3cdbb530a01c624);
+        
+    
+        var popup_a61e1ee93b2eddcb9a91419f2f72e9b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ec40fc9f4705ee045952f3111c55796 = $(`<div id="html_7ec40fc9f4705ee045952f3111c55796" style="width: 100.0%; height: 100.0%;">Date: 2023-04-13 Max Temperature: 37.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_a61e1ee93b2eddcb9a91419f2f72e9b7.setContent(html_7ec40fc9f4705ee045952f3111c55796);
+            
+        
+
+        marker_cbf11aedae1125874befb8f15723571d.bindPopup(popup_a61e1ee93b2eddcb9a91419f2f72e9b7)
+        ;
+
+        
+    
+    
+            var marker_30788e368d81ff58217d708cf7ef8551 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_47aad54fd96ac4716992d1831121de99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_30788e368d81ff58217d708cf7ef8551.setIcon(icon_47aad54fd96ac4716992d1831121de99);
+        
+    
+        var popup_fc5606dc786570e0279a8076613dc942 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3578fc005b9118f4cbc96ea40b2bf48a = $(`<div id="html_3578fc005b9118f4cbc96ea40b2bf48a" style="width: 100.0%; height: 100.0%;">Date: 2023-04-14 Max Temperature: 37.7°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_fc5606dc786570e0279a8076613dc942.setContent(html_3578fc005b9118f4cbc96ea40b2bf48a);
+            
+        
+
+        marker_30788e368d81ff58217d708cf7ef8551.bindPopup(popup_fc5606dc786570e0279a8076613dc942)
+        ;
+
+        
+    
+    
+            var marker_79172633e44d6d11fa550ea1bc24cc4a = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_af498c117b4ab41be9fa73aea67736da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_79172633e44d6d11fa550ea1bc24cc4a.setIcon(icon_af498c117b4ab41be9fa73aea67736da);
+        
+    
+        var popup_cb0fa939498462805825e7618dd79fea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5330edd9adc372ab9a3c655d33efee9 = $(`<div id="html_e5330edd9adc372ab9a3c655d33efee9" style="width: 100.0%; height: 100.0%;">Date: 2023-04-15 Max Temperature: 38.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_cb0fa939498462805825e7618dd79fea.setContent(html_e5330edd9adc372ab9a3c655d33efee9);
+            
+        
+
+        marker_79172633e44d6d11fa550ea1bc24cc4a.bindPopup(popup_cb0fa939498462805825e7618dd79fea)
+        ;
+
+        
+    
+    
+            var marker_0d1a4847e4e2338f4b8e21912fa8993d = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_3d7492cb8c2084d1161a570689ffeede = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0d1a4847e4e2338f4b8e21912fa8993d.setIcon(icon_3d7492cb8c2084d1161a570689ffeede);
+        
+    
+        var popup_12a162a706ba682f195d8ff31d2881c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e72ba69297de05362cac4b1538fc4e78 = $(`<div id="html_e72ba69297de05362cac4b1538fc4e78" style="width: 100.0%; height: 100.0%;">Date: 2023-04-16 Max Temperature: 40.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_12a162a706ba682f195d8ff31d2881c6.setContent(html_e72ba69297de05362cac4b1538fc4e78);
+            
+        
+
+        marker_0d1a4847e4e2338f4b8e21912fa8993d.bindPopup(popup_12a162a706ba682f195d8ff31d2881c6)
+        ;
+
+        
+    
+    
+            var marker_4219c23a2fa1755fd548cc21ba57c20c = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_9187cd2dd35fdeacc2e6f45a86f24396 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4219c23a2fa1755fd548cc21ba57c20c.setIcon(icon_9187cd2dd35fdeacc2e6f45a86f24396);
+        
+    
+        var popup_3388574529bb7dba9f1a48f0f0456c28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13d5ff3d2710bb96e3159d350e2711a0 = $(`<div id="html_13d5ff3d2710bb96e3159d350e2711a0" style="width: 100.0%; height: 100.0%;">Date: 2023-04-17 Max Temperature: 39.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_3388574529bb7dba9f1a48f0f0456c28.setContent(html_13d5ff3d2710bb96e3159d350e2711a0);
+            
+        
+
+        marker_4219c23a2fa1755fd548cc21ba57c20c.bindPopup(popup_3388574529bb7dba9f1a48f0f0456c28)
+        ;
+
+        
+    
+    
+            var marker_142c813e184a35c63f7199e4df1485e8 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_e8d0abebf30b8840167a480d4b93a3de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_142c813e184a35c63f7199e4df1485e8.setIcon(icon_e8d0abebf30b8840167a480d4b93a3de);
+        
+    
+        var popup_5c5be79988603ea7fdf6d97c76988c5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51891e5cc95a01ea4ae175241ffc26ba = $(`<div id="html_51891e5cc95a01ea4ae175241ffc26ba" style="width: 100.0%; height: 100.0%;">Date: 2023-04-18 Max Temperature: 37.7°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_5c5be79988603ea7fdf6d97c76988c5b.setContent(html_51891e5cc95a01ea4ae175241ffc26ba);
+            
+        
+
+        marker_142c813e184a35c63f7199e4df1485e8.bindPopup(popup_5c5be79988603ea7fdf6d97c76988c5b)
+        ;
+
+        
+    
+    
+            var marker_d1e3179285e485923498f8cf5b57eed0 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_5a0cae0010bf146806b20e3310081edd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d1e3179285e485923498f8cf5b57eed0.setIcon(icon_5a0cae0010bf146806b20e3310081edd);
+        
+    
+        var popup_7788075c921b2a530799f14c3e83dd7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3adb20591649b9bb74f431ac400ac2d5 = $(`<div id="html_3adb20591649b9bb74f431ac400ac2d5" style="width: 100.0%; height: 100.0%;">Date: 2023-04-19 Max Temperature: 38.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_7788075c921b2a530799f14c3e83dd7b.setContent(html_3adb20591649b9bb74f431ac400ac2d5);
+            
+        
+
+        marker_d1e3179285e485923498f8cf5b57eed0.bindPopup(popup_7788075c921b2a530799f14c3e83dd7b)
+        ;
+
+        
+    
+    
+            var marker_d77d0ef2195992b7a8e020c7a90c2038 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_9d0fed1ee1f36bf9cd3646113a7539fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d77d0ef2195992b7a8e020c7a90c2038.setIcon(icon_9d0fed1ee1f36bf9cd3646113a7539fd);
+        
+    
+        var popup_8b610d97494eeb7b067b0b75829794b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68939e4732423528784d096ecb5dc7f6 = $(`<div id="html_68939e4732423528784d096ecb5dc7f6" style="width: 100.0%; height: 100.0%;">Date: 2023-04-25 Max Temperature: 37.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_8b610d97494eeb7b067b0b75829794b5.setContent(html_68939e4732423528784d096ecb5dc7f6);
+            
+        
+
+        marker_d77d0ef2195992b7a8e020c7a90c2038.bindPopup(popup_8b610d97494eeb7b067b0b75829794b5)
+        ;
+
+        
+    
+    
+            var marker_bb6b05a5caed34e0e619df130dbdc4f5 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_1400b0f04c4c42d632f312722ec5b0f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bb6b05a5caed34e0e619df130dbdc4f5.setIcon(icon_1400b0f04c4c42d632f312722ec5b0f5);
+        
+    
+        var popup_e9f3618f19ba1e7799b11571b00aca63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f7e58dbe246039da04231a365cb06d46 = $(`<div id="html_f7e58dbe246039da04231a365cb06d46" style="width: 100.0%; height: 100.0%;">Date: 2023-04-26 Max Temperature: 36.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_e9f3618f19ba1e7799b11571b00aca63.setContent(html_f7e58dbe246039da04231a365cb06d46);
+            
+        
+
+        marker_bb6b05a5caed34e0e619df130dbdc4f5.bindPopup(popup_e9f3618f19ba1e7799b11571b00aca63)
+        ;
+
+        
+    
+    
+            var marker_e735584c40568dcfbfe967df25c6eebd = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_ad724643f7c4d4c68ee3e6de5e126f3e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e735584c40568dcfbfe967df25c6eebd.setIcon(icon_ad724643f7c4d4c68ee3e6de5e126f3e);
+        
+    
+        var popup_b39ea02c0570c82cb6df63a518519eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d96cc3f235eae7bddbaa37b163763f7 = $(`<div id="html_2d96cc3f235eae7bddbaa37b163763f7" style="width: 100.0%; height: 100.0%;">Date: 2023-04-27 Max Temperature: 35.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_b39ea02c0570c82cb6df63a518519eb1.setContent(html_2d96cc3f235eae7bddbaa37b163763f7);
+            
+        
+
+        marker_e735584c40568dcfbfe967df25c6eebd.bindPopup(popup_b39ea02c0570c82cb6df63a518519eb1)
+        ;
+
+        
+    
+    
+            var marker_ecb59ed904c05a7098ede33e438f0361 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_089fb6a351c279aad2497f87ce9e36dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ecb59ed904c05a7098ede33e438f0361.setIcon(icon_089fb6a351c279aad2497f87ce9e36dd);
+        
+    
+        var popup_f8984ed74d419bd9834d49db6c09bdcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5db009a907ab86c11ec6b088f1c8121 = $(`<div id="html_d5db009a907ab86c11ec6b088f1c8121" style="width: 100.0%; height: 100.0%;">Date: 2023-04-28 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_f8984ed74d419bd9834d49db6c09bdcb.setContent(html_d5db009a907ab86c11ec6b088f1c8121);
+            
+        
+
+        marker_ecb59ed904c05a7098ede33e438f0361.bindPopup(popup_f8984ed74d419bd9834d49db6c09bdcb)
+        ;
+
+        
+    
+    
+            var marker_2093fcaca447605f27352ee9e4d2b631 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_6ac074e3f97475de35593c0b6d4b0f76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2093fcaca447605f27352ee9e4d2b631.setIcon(icon_6ac074e3f97475de35593c0b6d4b0f76);
+        
+    
+        var popup_f3a91bc00ea3fc1f8210f1a78b5b4988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30ecb23f2c6c050cbd4e0456e4ecea8e = $(`<div id="html_30ecb23f2c6c050cbd4e0456e4ecea8e" style="width: 100.0%; height: 100.0%;">Date: 2023-05-02 Max Temperature: 35.6°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_f3a91bc00ea3fc1f8210f1a78b5b4988.setContent(html_30ecb23f2c6c050cbd4e0456e4ecea8e);
+            
+        
+
+        marker_2093fcaca447605f27352ee9e4d2b631.bindPopup(popup_f3a91bc00ea3fc1f8210f1a78b5b4988)
+        ;
+
+        
+    
+    
+            var marker_e8fd3311db615106c33ce9599a251d0e = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_d72228b39daa8cf603418c629a27d8b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e8fd3311db615106c33ce9599a251d0e.setIcon(icon_d72228b39daa8cf603418c629a27d8b6);
+        
+    
+        var popup_5cd242cfa2b64b5eac5fa866c9cd4a7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3125b250675a9d70379d3e0f7b7af89 = $(`<div id="html_e3125b250675a9d70379d3e0f7b7af89" style="width: 100.0%; height: 100.0%;">Date: 2023-05-06 Max Temperature: 38.5°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_5cd242cfa2b64b5eac5fa866c9cd4a7e.setContent(html_e3125b250675a9d70379d3e0f7b7af89);
+            
+        
+
+        marker_e8fd3311db615106c33ce9599a251d0e.bindPopup(popup_5cd242cfa2b64b5eac5fa866c9cd4a7e)
+        ;
+
+        
+    
+    
+            var marker_443321897db70ca45b3904cae3c6eb0a = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_0839423a101ad24d48395f9799f2be35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_443321897db70ca45b3904cae3c6eb0a.setIcon(icon_0839423a101ad24d48395f9799f2be35);
+        
+    
+        var popup_203b6c95d86c34c18161a8da02bb8104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d993e3b7aa2556bcaf813c39aaabc5 = $(`<div id="html_e6d993e3b7aa2556bcaf813c39aaabc5" style="width: 100.0%; height: 100.0%;">Date: 2023-05-07 Max Temperature: 40.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_203b6c95d86c34c18161a8da02bb8104.setContent(html_e6d993e3b7aa2556bcaf813c39aaabc5);
+            
+        
+
+        marker_443321897db70ca45b3904cae3c6eb0a.bindPopup(popup_203b6c95d86c34c18161a8da02bb8104)
+        ;
+
+        
+    
+    
+            var marker_9beb21cd12af1751f31b0f02a4e42b52 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_41ba58270177113e64f8c51571e9eedb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9beb21cd12af1751f31b0f02a4e42b52.setIcon(icon_41ba58270177113e64f8c51571e9eedb);
+        
+    
+        var popup_2a8d9fca1ba2054d84843c729da230cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe65c532a78c11582355813b5dffbdc2 = $(`<div id="html_fe65c532a78c11582355813b5dffbdc2" style="width: 100.0%; height: 100.0%;">Date: 2023-05-08 Max Temperature: 37.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_2a8d9fca1ba2054d84843c729da230cf.setContent(html_fe65c532a78c11582355813b5dffbdc2);
+            
+        
+
+        marker_9beb21cd12af1751f31b0f02a4e42b52.bindPopup(popup_2a8d9fca1ba2054d84843c729da230cf)
+        ;
+
+        
+    
+    
+            var marker_fdf0a259830c92e1a6f549d15d7621c5 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_3496cf2fab7e9f2c9a1867f65dd95152 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fdf0a259830c92e1a6f549d15d7621c5.setIcon(icon_3496cf2fab7e9f2c9a1867f65dd95152);
+        
+    
+        var popup_165769c4e4d44b866e72d3c3fcdd8077 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3a72d78f2bb4b3853c8d29a91817ae2 = $(`<div id="html_e3a72d78f2bb4b3853c8d29a91817ae2" style="width: 100.0%; height: 100.0%;">Date: 2023-05-09 Max Temperature: 41.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_165769c4e4d44b866e72d3c3fcdd8077.setContent(html_e3a72d78f2bb4b3853c8d29a91817ae2);
+            
+        
+
+        marker_fdf0a259830c92e1a6f549d15d7621c5.bindPopup(popup_165769c4e4d44b866e72d3c3fcdd8077)
+        ;
+
+        
+    
+    
+            var marker_a837ddddaad95ddcf20ca46c98571b90 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_b50ce64bba4a8060173f26cda5406a46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a837ddddaad95ddcf20ca46c98571b90.setIcon(icon_b50ce64bba4a8060173f26cda5406a46);
+        
+    
+        var popup_99755a88811641991deb786abacb5240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2034bc7417e66486b72c9c7b99d343d0 = $(`<div id="html_2034bc7417e66486b72c9c7b99d343d0" style="width: 100.0%; height: 100.0%;">Date: 2023-05-10 Max Temperature: 40.4°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_99755a88811641991deb786abacb5240.setContent(html_2034bc7417e66486b72c9c7b99d343d0);
+            
+        
+
+        marker_a837ddddaad95ddcf20ca46c98571b90.bindPopup(popup_99755a88811641991deb786abacb5240)
+        ;
+
+        
+    
+    
+            var marker_0bf434374db84c45761ec4e19ed177c9 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_5ae1eb6a934724b4e48d53bb2e2d4a03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0bf434374db84c45761ec4e19ed177c9.setIcon(icon_5ae1eb6a934724b4e48d53bb2e2d4a03);
+        
+    
+        var popup_0d8f7f15659d0b585eb662c2ec0ddc3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b32daf52c0c663e2cd3282c4aecdb7b = $(`<div id="html_9b32daf52c0c663e2cd3282c4aecdb7b" style="width: 100.0%; height: 100.0%;">Date: 2023-05-13 Max Temperature: 37.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_0d8f7f15659d0b585eb662c2ec0ddc3e.setContent(html_9b32daf52c0c663e2cd3282c4aecdb7b);
+            
+        
+
+        marker_0bf434374db84c45761ec4e19ed177c9.bindPopup(popup_0d8f7f15659d0b585eb662c2ec0ddc3e)
+        ;
+
+        
+    
+    
+            var marker_5da5c2ed5603a42c6637f4f9da818acd = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_a10e5fc5c0be4fe4f5ec9fca01b00781 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5da5c2ed5603a42c6637f4f9da818acd.setIcon(icon_a10e5fc5c0be4fe4f5ec9fca01b00781);
+        
+    
+        var popup_c2b0149051400ac86c1b31ca8a256742 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da647898405ca512499e8ab372aea4b7 = $(`<div id="html_da647898405ca512499e8ab372aea4b7" style="width: 100.0%; height: 100.0%;">Date: 2023-05-30 Max Temperature: 35.7°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_c2b0149051400ac86c1b31ca8a256742.setContent(html_da647898405ca512499e8ab372aea4b7);
+            
+        
+
+        marker_5da5c2ed5603a42c6637f4f9da818acd.bindPopup(popup_c2b0149051400ac86c1b31ca8a256742)
+        ;
+
+        
+    
+    
+            var marker_49ca6023fb1311f124428b687619a0f8 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_9799afbcdff81ea55ea34a276a17b568 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_49ca6023fb1311f124428b687619a0f8.setIcon(icon_9799afbcdff81ea55ea34a276a17b568);
+        
+    
+        var popup_cdda5d1fb42dbf1698b9fc74c1f26437 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a02bce9d0b2cf88d3d0892e799856e8a = $(`<div id="html_a02bce9d0b2cf88d3d0892e799856e8a" style="width: 100.0%; height: 100.0%;">Date: 2023-05-31 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_cdda5d1fb42dbf1698b9fc74c1f26437.setContent(html_a02bce9d0b2cf88d3d0892e799856e8a);
+            
+        
+
+        marker_49ca6023fb1311f124428b687619a0f8.bindPopup(popup_cdda5d1fb42dbf1698b9fc74c1f26437)
+        ;
+
+        
+    
+    
+            var marker_6d7b2dbad639c9ec09dd800894c6e66e = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_f1d838f835db3661b32fafb7038a84b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6d7b2dbad639c9ec09dd800894c6e66e.setIcon(icon_f1d838f835db3661b32fafb7038a84b3);
+        
+    
+        var popup_447d7171d336591f70159e2a3915dc64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f44f9394f87e87724948ca7873932bc = $(`<div id="html_2f44f9394f87e87724948ca7873932bc" style="width: 100.0%; height: 100.0%;">Date: 2023-06-02 Max Temperature: 35.8°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_447d7171d336591f70159e2a3915dc64.setContent(html_2f44f9394f87e87724948ca7873932bc);
+            
+        
+
+        marker_6d7b2dbad639c9ec09dd800894c6e66e.bindPopup(popup_447d7171d336591f70159e2a3915dc64)
+        ;
+
+        
+    
+    
+            var marker_9a64360e76ad1191fe3dc11314d8c773 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_7e0fbcb1048e78d0a49f5c8a61e55bcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9a64360e76ad1191fe3dc11314d8c773.setIcon(icon_7e0fbcb1048e78d0a49f5c8a61e55bcb);
+        
+    
+        var popup_1a91c8b09640437958e243438d3b7e62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_255347affd4dea6a145989254eec5dd9 = $(`<div id="html_255347affd4dea6a145989254eec5dd9" style="width: 100.0%; height: 100.0%;">Date: 2023-06-03 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_1a91c8b09640437958e243438d3b7e62.setContent(html_255347affd4dea6a145989254eec5dd9);
+            
+        
+
+        marker_9a64360e76ad1191fe3dc11314d8c773.bindPopup(popup_1a91c8b09640437958e243438d3b7e62)
+        ;
+
+        
+    
+    
+            var marker_01ba02b9b73044b1baf71a6415e7cf45 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_1ee13e2476d79cae57769400f332f70b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_01ba02b9b73044b1baf71a6415e7cf45.setIcon(icon_1ee13e2476d79cae57769400f332f70b);
+        
+    
+        var popup_aed1228ea6654ab8d821130449f61be2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df17f7dfd13fcafa38f0f6a9d6825800 = $(`<div id="html_df17f7dfd13fcafa38f0f6a9d6825800" style="width: 100.0%; height: 100.0%;">Date: 2023-06-04 Max Temperature: 35.3°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_aed1228ea6654ab8d821130449f61be2.setContent(html_df17f7dfd13fcafa38f0f6a9d6825800);
+            
+        
+
+        marker_01ba02b9b73044b1baf71a6415e7cf45.bindPopup(popup_aed1228ea6654ab8d821130449f61be2)
+        ;
+
+        
+    
+    
+            var marker_fbd3bcd7d4c09d920565abc40f294a93 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_e4d7efd71a5501e5eb2ab4458a8b68c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fbd3bcd7d4c09d920565abc40f294a93.setIcon(icon_e4d7efd71a5501e5eb2ab4458a8b68c4);
+        
+    
+        var popup_4303b102020630c5493bb29b6bac6b53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ee832895d7a6cc73d375d065d9ca624 = $(`<div id="html_9ee832895d7a6cc73d375d065d9ca624" style="width: 100.0%; height: 100.0%;">Date: 2023-06-05 Max Temperature: 35.7°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_4303b102020630c5493bb29b6bac6b53.setContent(html_9ee832895d7a6cc73d375d065d9ca624);
+            
+        
+
+        marker_fbd3bcd7d4c09d920565abc40f294a93.bindPopup(popup_4303b102020630c5493bb29b6bac6b53)
+        ;
+
+        
+    
+    
+            var marker_96744ac8b503aa8c88121dc3845f6a18 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_851224c20e75c4f93761c5b8aa6dfa09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_96744ac8b503aa8c88121dc3845f6a18.setIcon(icon_851224c20e75c4f93761c5b8aa6dfa09);
+        
+    
+        var popup_a32a5ece925e232189a8818403a244fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f28c5b4b42eb2b021d043d413ad9df8e = $(`<div id="html_f28c5b4b42eb2b021d043d413ad9df8e" style="width: 100.0%; height: 100.0%;">Date: 2023-06-06 Max Temperature: 37.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_a32a5ece925e232189a8818403a244fa.setContent(html_f28c5b4b42eb2b021d043d413ad9df8e);
+            
+        
+
+        marker_96744ac8b503aa8c88121dc3845f6a18.bindPopup(popup_a32a5ece925e232189a8818403a244fa)
+        ;
+
+        
+    
+    
+            var marker_39da9eaa0573c64048bafa22ce5c08de = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_2b770d7e65e7b0694c44d09517f7bbb3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_39da9eaa0573c64048bafa22ce5c08de.setIcon(icon_2b770d7e65e7b0694c44d09517f7bbb3);
+        
+    
+        var popup_73cedaee729af6d76296450d40160e7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ab04c3f8af94620122962c25ef2a49b = $(`<div id="html_3ab04c3f8af94620122962c25ef2a49b" style="width: 100.0%; height: 100.0%;">Date: 2023-06-07 Max Temperature: 37.4°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_73cedaee729af6d76296450d40160e7c.setContent(html_3ab04c3f8af94620122962c25ef2a49b);
+            
+        
+
+        marker_39da9eaa0573c64048bafa22ce5c08de.bindPopup(popup_73cedaee729af6d76296450d40160e7c)
+        ;
+
+        
+    
+    
+            var marker_a9193073c993e581a4ccf3c730d0f71e = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_8991730f452638367532c995dd6a7f11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a9193073c993e581a4ccf3c730d0f71e.setIcon(icon_8991730f452638367532c995dd6a7f11);
+        
+    
+        var popup_0a710ae4a8f5b5de3715a3a67afddae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f79349b13c34ce719aa8593081bd1bbd = $(`<div id="html_f79349b13c34ce719aa8593081bd1bbd" style="width: 100.0%; height: 100.0%;">Date: 2023-06-08 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_0a710ae4a8f5b5de3715a3a67afddae5.setContent(html_f79349b13c34ce719aa8593081bd1bbd);
+            
+        
+
+        marker_a9193073c993e581a4ccf3c730d0f71e.bindPopup(popup_0a710ae4a8f5b5de3715a3a67afddae5)
+        ;
+
+        
+    
+    
+            var marker_165a7b6e9c90295091037258d93af859 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_e59479ce991f737d01fc60fdd9fcd9b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_165a7b6e9c90295091037258d93af859.setIcon(icon_e59479ce991f737d01fc60fdd9fcd9b5);
+        
+    
+        var popup_424faa260c21fdf124e38d932f2a4efb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efa76c3a364ea2bc4382096ee6df355b = $(`<div id="html_efa76c3a364ea2bc4382096ee6df355b" style="width: 100.0%; height: 100.0%;">Date: 2023-07-19 Max Temperature: 35.7°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_424faa260c21fdf124e38d932f2a4efb.setContent(html_efa76c3a364ea2bc4382096ee6df355b);
+            
+        
+
+        marker_165a7b6e9c90295091037258d93af859.bindPopup(popup_424faa260c21fdf124e38d932f2a4efb)
+        ;
+
+        
+    
+    
+            var marker_40015ad83ef9489cd256b6c7159b6554 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_e6cfe539ee12b57d67167d8c4279f021 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_40015ad83ef9489cd256b6c7159b6554.setIcon(icon_e6cfe539ee12b57d67167d8c4279f021);
+        
+    
+        var popup_307a8063517fc1af577d4ecf1d8bbcac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f872a91b802fe3937b0377cfb35409a = $(`<div id="html_9f872a91b802fe3937b0377cfb35409a" style="width: 100.0%; height: 100.0%;">Date: 2023-07-20 Max Temperature: 35.8°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_307a8063517fc1af577d4ecf1d8bbcac.setContent(html_9f872a91b802fe3937b0377cfb35409a);
+            
+        
+
+        marker_40015ad83ef9489cd256b6c7159b6554.bindPopup(popup_307a8063517fc1af577d4ecf1d8bbcac)
+        ;
+
+        
+    
+    
+            var marker_e3f549444d9a012a07ab7cc303d88943 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_876087ff564b0daf7b818526d0956e88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e3f549444d9a012a07ab7cc303d88943.setIcon(icon_876087ff564b0daf7b818526d0956e88);
+        
+    
+        var popup_308fbfccf9b7f8bf75070b66bfce9508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15f71dc65c5f828e2392a1f5654fc878 = $(`<div id="html_15f71dc65c5f828e2392a1f5654fc878" style="width: 100.0%; height: 100.0%;">Date: 2023-07-31 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_308fbfccf9b7f8bf75070b66bfce9508.setContent(html_15f71dc65c5f828e2392a1f5654fc878);
+            
+        
+
+        marker_e3f549444d9a012a07ab7cc303d88943.bindPopup(popup_308fbfccf9b7f8bf75070b66bfce9508)
+        ;
+
+        
+    
+    
+            var marker_80b13384021f7446dff129096cb067c8 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_fe732475ac870463a91a109d6034e2a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_80b13384021f7446dff129096cb067c8.setIcon(icon_fe732475ac870463a91a109d6034e2a8);
+        
+    
+        var popup_52cf83ca7679b75bd2159f3e100072e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3f5ddf876be4f263c129ebed51c36be = $(`<div id="html_d3f5ddf876be4f263c129ebed51c36be" style="width: 100.0%; height: 100.0%;">Date: 2023-08-01 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_52cf83ca7679b75bd2159f3e100072e1.setContent(html_d3f5ddf876be4f263c129ebed51c36be);
+            
+        
+
+        marker_80b13384021f7446dff129096cb067c8.bindPopup(popup_52cf83ca7679b75bd2159f3e100072e1)
+        ;
+
+        
+    
+    
+            var marker_4aa4f64005b90cb315e8492f5643d7a6 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_6491ca879abbbcf658666d2359d75e5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4aa4f64005b90cb315e8492f5643d7a6.setIcon(icon_6491ca879abbbcf658666d2359d75e5c);
+        
+    
+        var popup_50e6873eb6446e88660ebd84e8d96628 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b99c61a59568ebb84ff9aec63ea2de5 = $(`<div id="html_6b99c61a59568ebb84ff9aec63ea2de5" style="width: 100.0%; height: 100.0%;">Date: 2023-09-03 Max Temperature: 35.9°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_50e6873eb6446e88660ebd84e8d96628.setContent(html_6b99c61a59568ebb84ff9aec63ea2de5);
+            
+        
+
+        marker_4aa4f64005b90cb315e8492f5643d7a6.bindPopup(popup_50e6873eb6446e88660ebd84e8d96628)
+        ;
+
+        
+    
+    
+            var marker_507c1b67946f2cb00bc70cff220b4a5e = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_a4d183d22ddff22bb21c37716b56d9ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_507c1b67946f2cb00bc70cff220b4a5e.setIcon(icon_a4d183d22ddff22bb21c37716b56d9ab);
+        
+    
+        var popup_9045d7a587ed02e3f2e013ae80df2668 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1e6b5dae07825dfc9d07e66db15b88f = $(`<div id="html_d1e6b5dae07825dfc9d07e66db15b88f" style="width: 100.0%; height: 100.0%;">Date: 2023-09-04 Max Temperature: 36.3°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_9045d7a587ed02e3f2e013ae80df2668.setContent(html_d1e6b5dae07825dfc9d07e66db15b88f);
+            
+        
+
+        marker_507c1b67946f2cb00bc70cff220b4a5e.bindPopup(popup_9045d7a587ed02e3f2e013ae80df2668)
+        ;
+
+        
+    
+    
+            var marker_5ad458f801eec218d31838137003db34 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_c94fee6e7acdea63ae08ad41ab5f58d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_5ad458f801eec218d31838137003db34.setIcon(icon_c94fee6e7acdea63ae08ad41ab5f58d0);
+        
+    
+        var popup_1276c2bdb3fdbb501de31952a77df1f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59fb0e5a4cb98e8652ab232afb47c600 = $(`<div id="html_59fb0e5a4cb98e8652ab232afb47c600" style="width: 100.0%; height: 100.0%;">Date: 2023-09-05 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_1276c2bdb3fdbb501de31952a77df1f8.setContent(html_59fb0e5a4cb98e8652ab232afb47c600);
+            
+        
+
+        marker_5ad458f801eec218d31838137003db34.bindPopup(popup_1276c2bdb3fdbb501de31952a77df1f8)
+        ;
+
+        
+    
+    
+            var marker_9d5645b2b3f813b569cbe59bde0b25d9 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_c06ff18cf0d341af0176b70386e49602 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9d5645b2b3f813b569cbe59bde0b25d9.setIcon(icon_c06ff18cf0d341af0176b70386e49602);
+        
+    
+        var popup_50293200732e04b41b6632de43123439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d058838eb149b82bf30f507988b8f47 = $(`<div id="html_3d058838eb149b82bf30f507988b8f47" style="width: 100.0%; height: 100.0%;">Date: 2023-09-06 Max Temperature: 35.9°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_50293200732e04b41b6632de43123439.setContent(html_3d058838eb149b82bf30f507988b8f47);
+            
+        
+
+        marker_9d5645b2b3f813b569cbe59bde0b25d9.bindPopup(popup_50293200732e04b41b6632de43123439)
+        ;
+
+        
+    
+    
+            var marker_6ebe10acdbe28076995fb56edf23012a = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_9b65b42cb51e2df8d1e7f27cc7336ff0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6ebe10acdbe28076995fb56edf23012a.setIcon(icon_9b65b42cb51e2df8d1e7f27cc7336ff0);
+        
+    
+        var popup_12b84577e2dce7d310212fd6cde78330 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1e0e03ec3dc45e95acf362e0b2e8eed = $(`<div id="html_e1e0e03ec3dc45e95acf362e0b2e8eed" style="width: 100.0%; height: 100.0%;">Date: 2023-09-14 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_12b84577e2dce7d310212fd6cde78330.setContent(html_e1e0e03ec3dc45e95acf362e0b2e8eed);
+            
+        
+
+        marker_6ebe10acdbe28076995fb56edf23012a.bindPopup(popup_12b84577e2dce7d310212fd6cde78330)
+        ;
+
+        
+    
+    
+            var marker_bcc7729525ca9f6a69527aa4859ae194 = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_b76f9f6d4e07b046cf092a5d0b5a7678 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bcc7729525ca9f6a69527aa4859ae194.setIcon(icon_b76f9f6d4e07b046cf092a5d0b5a7678);
+        
+    
+        var popup_ef6682059d6f58c31df378dded003257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2364e45e8996f3be8c79aec2d6bd401b = $(`<div id="html_2364e45e8996f3be8c79aec2d6bd401b" style="width: 100.0%; height: 100.0%;">Date: 2023-09-17 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_ef6682059d6f58c31df378dded003257.setContent(html_2364e45e8996f3be8c79aec2d6bd401b);
+            
+        
+
+        marker_bcc7729525ca9f6a69527aa4859ae194.bindPopup(popup_ef6682059d6f58c31df378dded003257)
+        ;
+
+        
+    
+    
+            var marker_b98a133b130e7e7d3201951cb1eb6d0c = L.marker(
+                [26.1445, 91.7362],
+                {}
+            ).addTo(map_03d67cefd631542f44ee3df1c9affa2e);
+        
+    
+            var icon_3089409a5357b2f449861da2885866f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b98a133b130e7e7d3201951cb1eb6d0c.setIcon(icon_3089409a5357b2f449861da2885866f7);
+        
+    
+        var popup_5cc779ec794571551c4096561b6b490b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef06e3bb340f2e4abe035a15f6ae5d90 = $(`<div id="html_ef06e3bb340f2e4abe035a15f6ae5d90" style="width: 100.0%; height: 100.0%;">Date: 2023-09-18 Max Temperature: 36.0°C Suggested Actions: 1. Increase Shade Trees. 2. Install Green Roofs. 3. Create Urban Green Spaces. </div>`)[0];
+                popup_5cc779ec794571551c4096561b6b490b.setContent(html_ef06e3bb340f2e4abe035a15f6ae5d90);
+            
+        
+
+        marker_b98a133b130e7e7d3201951cb1eb6d0c.bindPopup(popup_5cc779ec794571551c4096561b6b490b)
+        ;
+
+        
+    
+</script>
+</html>
